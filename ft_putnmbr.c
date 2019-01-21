@@ -9,11 +9,11 @@ char num_to_char(int a) {
 
 
 void ft_put_nmbr(int i) {
-	// declare a table of 10 slots
 	if(i<0) {
 		write(1, &"-", 1);
 		i = -1 * i;
 	}
+	// declare a table of 10 slots
 	char reverse_num_table[10];
 	// address of a character and the following one
 	// *pointer - content of the allocation
